@@ -46,7 +46,6 @@ class RoleResource extends Resource
                 TextColumn::make('created_at')->sortable()->date('Y-m-d')->searchable(),
             ])
             ->filters([
-                //
             ])
             ->actions([
                 Tables\Actions\EditAction::make(),
